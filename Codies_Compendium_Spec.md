@@ -1,8 +1,5 @@
 
 # SPEC-1: Codies-Compendium
-:sectnums:
-:toc:
-
 ## Background
 
 Magic: The Gathering (MTG) Commander format, especially the competitive EDH (cEDH) community, has seen a growing demand for tools that assist in tracking, optimizing, and strategizing gameplay. While various deck-building and online play tools (e.g., Moxfield, Spelltable) offer support, there is no dedicated platform that integrates deck management, probability calculations, and real-time gameplay tracking tailored for MTG enthusiasts. This gap led to the creation of Codies-Compendium.
@@ -17,7 +14,7 @@ The following requirements are organized by priority to ensure that core functio
 
 * **Local Deck Management**: Users can create, edit, and save decks locally with features for tagging, grouping, and managing deck lists and individual cards.
 * **Combo Dashboard**: Track and calculate probabilities for specific combos, including both “true” and “synergistic” combos, across multiple decks.
-* **Probability Calculations**: Display probabilities for drawing cards, finding combos, and optimizing moves based on current board state and hand.
+* **Probability Calculations**: Display probabilities for drawing cards, finding combos, and optimizing moves based on the current board state and hand.
 * **Field Tracking and Image Recognition**: Support for physical card tracking via camera integration with field zones (e.g., hand, graveyard) to display real-time gameplay information.
 * **Customizable UI**: Tab-based, data-rich HUD with adjustable data visibility for a personalized experience.
 * **Cross-Platform Desktop Application**: Desktop application compatible with Windows, macOS, and Linux, with extensive support for Arch Linux.
@@ -25,20 +22,20 @@ The following requirements are organized by priority to ensure that core functio
 
 ### Should-Have
 
-* **Virtual Hand Simulator**: Virtual hand simulator with adjustable “safety” and “speed” settings to test potential lines.
+* **Virtual Hand Simulator**: This is a virtual hand simulator with adjustable “safety” and “speed” settings for testing potential lines.
 * **AI Judge for Rules Assistance**: Optional AI-powered recommendations on board state, with rule clarifications for new or ambiguous situations.
 * **Token Overlay and Counter Tracking**: Visual overlays on field zones to track tokens, counters, and relevant effects.
-* **Shared Screen Mode**: Spectator mode enabling shared view access for non-players.
+* **Shared Screen Mode**: Spectator mode enables shared view access for non-players.
 
 ### Could-Have
 
-* **Real-Time Matchmaking Support**: Private, public, and tournament-style matchmaking to allow users to find games in various competition levels.
+* **Real-Time Matchmaking Support**: Private, public, and tournament-style matchmaking allows users to find games in various competition levels.
 * **Interactive Walkthrough for Onboarding**: A guided tutorial for first-time setup and use of advanced features.
 
 ### Won't-Have (for Initial Version)
 
-* **Cloud Data Storage**: Initially a local-only storage model with plans for cloud integration in future versions.
-* **Mobile Support**: Current focus is on desktop, with possible future expansion to mobile if user demand exists.
+* **Cloud Data Storage**: Initially, it will be a local-only storage model with plans for cloud integration in future versions.
+* **Mobile Support**: The current focus is on desktop, with possible future expansion to mobile if user demand exists.
 
 ## Method
 
